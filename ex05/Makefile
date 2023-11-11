@@ -1,5 +1,5 @@
-NAME = replice
-SRC = main.cpp
+NAME = Harl2.0
+SRC = main.cpp Harl.cpp
 OBJ = $(SRC:.cpp=.o)
 CC = c++
 FLAGS = -Wall -Wextra -Werror -std=c++98
