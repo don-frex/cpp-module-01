@@ -1,4 +1,4 @@
-NAME = replice
+NAME = replace
 SRC = main.cpp
 OBJ = $(SRC:.cpp=.o)
 CC = c++
@@ -10,7 +10,7 @@ $(NAME): $(OBJ)
 %.o: %.cpp
 	$(CC) $(FLAGS) -c $< -o $@
 clean:
-	rm -rf $(OBJ)
+	rm -rf $(OBJ) *.replace
 fclean: clean
-	rm -rf $(NAME)
+	rm -rf $(NAME) *.replace
 re: fclean all
